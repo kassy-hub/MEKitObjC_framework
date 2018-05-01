@@ -1,0 +1,6 @@
+framework module MEKitObjC {
+    umbrella header "MEKitObjC.h"
+    
+    export *
+    module * { export * }
+}

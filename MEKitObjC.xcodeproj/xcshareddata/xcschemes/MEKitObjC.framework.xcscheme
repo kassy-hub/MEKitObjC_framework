@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B0404681ACAAE3C0071090C"
+               BlueprintIdentifier = "59D605D820988D350029FCB9"
                BuildableName = "MEKitObjC.framework"
                BlueprintName = "MEKitObjC.framework"
                ReferencedContainer = "container:MEKitObjC.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B0404681ACAAE3C0071090C"
+            BlueprintIdentifier = "59D605D820988D350029FCB9"
             BuildableName = "MEKitObjC.framework"
             BlueprintName = "MEKitObjC.framework"
             ReferencedContainer = "container:MEKitObjC.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B0404681ACAAE3C0071090C"
+            BlueprintIdentifier = "59D605D820988D350029FCB9"
             BuildableName = "MEKitObjC.framework"
             BlueprintName = "MEKitObjC.framework"
             ReferencedContainer = "container:MEKitObjC.xcodeproj">

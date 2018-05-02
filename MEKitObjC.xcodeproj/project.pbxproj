@@ -65,7 +65,6 @@
 		5963389120998BA0001E38C2 /* MEOTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155CB1ACB764600611592 /* MEOTableViewCell.m */; };
 		5963389220998BA0001E38C2 /* MEOTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155D11ACB764600611592 /* MEOTableDataSource.m */; };
 		5963389320998BA0001E38C2 /* MEOTableDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155D31ACB764600611592 /* MEOTableDataSourceManager.m */; };
-		5963389520998BBB001E38C2 /* MEKitObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0404511ACAAD960071090C /* MEKitObjC.m */; };
 		596C7CED209898C7001650E5 /* MEKitObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B04044F1ACAAD960071090C /* MEKitObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		596C7CEE209899BF001650E5 /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31554A1ACB764600611592 /* Categories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		596C7CEF209899BF001650E5 /* NSArray+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31554C1ACB764600611592 /* NSArray+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -128,7 +127,6 @@
 		596C7D2E20989E4F001650E5 /* MEKitObjCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 596C7D2D20989E4E001650E5 /* MEKitObjCResources.bundle */; };
 		59D605DD20988D350029FCB9 /* MEKitObjCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D605DB20988D350029FCB9 /* MEKitObjCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B0404501ACAAD960071090C /* MEKitObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B04044F1ACAAD960071090C /* MEKitObjC.h */; };
-		9B0404521ACAAD960071090C /* MEKitObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0404511ACAAD960071090C /* MEKitObjC.m */; };
 		9B0404581ACAAD960071090C /* libMEKitObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B04044C1ACAAD960071090C /* libMEKitObjC.a */; };
 		9B10BA8A1ADB3E4000B70BA5 /* MEOLINEActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B10BA831ADB3E4000B70BA5 /* MEOLINEActivity.m */; };
 		9B10BA8B1ADB3E4000B70BA5 /* MEOLINEActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B10BA831ADB3E4000B70BA5 /* MEOLINEActivity.m */; };
@@ -315,7 +313,6 @@
 		59D605DC20988D350029FCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B04044C1ACAAD960071090C /* libMEKitObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKitObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B04044F1ACAAD960071090C /* MEKitObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEKitObjC.h; sourceTree = "<group>"; };
-		9B0404511ACAAD960071090C /* MEKitObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEKitObjC.m; sourceTree = "<group>"; };
 		9B0404571ACAAD960071090C /* MEKitObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKitObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B04045D1ACAAD960071090C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B0405B61ACACC160071090C /* MEKitObjCResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKitObjCResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -536,7 +533,6 @@
 				9BBF190C1B02F64200515F4B /* resources */,
 				9B3155481ACB764600611592 /* src */,
 				9B04044F1ACAAD960071090C /* MEKitObjC.h */,
-				9B0404511ACAAD960071090C /* MEKitObjC.m */,
 				9B3155461ACB761700611592 /* info.plist */,
 				596C7CEC20989706001650E5 /* module.modulemap */,
 				596C7D2D20989E4E001650E5 /* MEKitObjCResources.bundle */,
@@ -1253,7 +1249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5963389520998BBB001E38C2 /* MEKitObjC.m in Sources */,
 				5963385620998B2A001E38C2 /* Categories.m in Sources */,
 				5963385720998B2A001E38C2 /* NSArray+Enhanced.m in Sources */,
 				5963385820998B2A001E38C2 /* NSData+AESCrypt.m in Sources */,
@@ -1361,7 +1356,6 @@
 				9B31561D1ACB764600611592 /* MEOIndicatorView.m in Sources */,
 				9B3155F61ACB764600611592 /* UITabBarController+Extension.m in Sources */,
 				9B3155E41ACB764600611592 /* NSString+AESCrypt.m in Sources */,
-				9B0404521ACAAD960071090C /* MEKitObjC.m in Sources */,
 				9B31562B1ACB764600611592 /* MEONotificationView.m in Sources */,
 				9B340C811AF1C8D200D18E71 /* NSError+Enhanced.m in Sources */,
 				9B3155D41ACB764600611592 /* Categories.m in Sources */,

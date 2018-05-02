@@ -55,8 +55,3 @@
 #import "MEOPickerToolbarView.h"
 
 #import "MEOToast.h"
-
-@interface MEKitObjC : NSObject
-
-
-@end

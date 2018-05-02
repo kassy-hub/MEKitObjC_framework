@@ -7,6 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5963385620998B2A001E38C2 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31554B1ACB764600611592 /* Categories.m */; };
+		5963385720998B2A001E38C2 /* NSArray+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31554D1ACB764600611592 /* NSArray+Enhanced.m */; };
+		5963385820998B2A001E38C2 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31554F1ACB764600611592 /* NSData+AESCrypt.m */; };
+		5963385920998B2A001E38C2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155511ACB764600611592 /* NSData+Base64.m */; };
+		5963385A20998B2A001E38C2 /* NSDate+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155531ACB764600611592 /* NSDate+Enhanced.m */; };
+		5963385B20998B2A001E38C2 /* NSDictionary+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155551ACB764600611592 /* NSDictionary+Enhanced.m */; };
+		5963385C20998B2A001E38C2 /* NSError+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B340C801AF1C8D200D18E71 /* NSError+Enhanced.m */; };
+		5963385D20998B2A001E38C2 /* NSMutableArray+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155571ACB764600611592 /* NSMutableArray+Enhanced.m */; };
+		5963385E20998B2A001E38C2 /* NSObject+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155591ACB764600611592 /* NSObject+Enhanced.m */; };
+		5963385F20998B2A001E38C2 /* NSString+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31555B1ACB764600611592 /* NSString+AESCrypt.m */; };
+		5963386020998B2A001E38C2 /* NSString+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31555D1ACB764600611592 /* NSString+Enhanced.m */; };
+		5963386120998B2A001E38C2 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31555F1ACB764600611592 /* UIActionSheet+Blocks.m */; };
+		5963386220998B2A001E38C2 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155611ACB764600611592 /* UIAlertView+Blocks.m */; };
+		5963386320998B2A001E38C2 /* UIButton+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155631ACB764600611592 /* UIButton+Enhanced.m */; };
+		5963386420998B2A001E38C2 /* UIColor+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155651ACB764600611592 /* UIColor+Enhanced.m */; };
+		5963386520998B2A001E38C2 /* UIImage+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155671ACB764600611592 /* UIImage+Enhanced.m */; };
+		5963386620998B2A001E38C2 /* UILabel+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB4D481B32930B008833E5 /* UILabel+Enhanced.m */; };
+		5963386720998B2A001E38C2 /* UIResponder+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155691ACB764600611592 /* UIResponder+Enhanced.m */; };
+		5963386820998B2A001E38C2 /* UIScrollView+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31556B1ACB764600611592 /* UIScrollView+Enhanced.m */; };
+		5963386920998B2A001E38C2 /* UITabBarController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31556D1ACB764600611592 /* UITabBarController+Extension.m */; };
+		5963386A20998B2A001E38C2 /* UITableViewCell+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31556F1ACB764600611592 /* UITableViewCell+Enhanced.m */; };
+		5963386B20998B2A001E38C2 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155711ACB764600611592 /* UITextView+Placeholder.m */; };
+		5963386C20998B2A001E38C2 /* UIView+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155731ACB764600611592 /* UIView+Enhanced.m */; };
+		5963386D20998B2A001E38C2 /* UIViewController+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155751ACB764600611592 /* UIViewController+Enhanced.m */; };
+		5963386E20998B2A001E38C2 /* UIViewController+HeadphoneNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA32661CBC877900A0C239 /* UIViewController+HeadphoneNotification.m */; };
+		5963386F20998B2A001E38C2 /* UIViewController+NavigationDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155771ACB764600611592 /* UIViewController+NavigationDrawer.m */; };
+		5963387020998B2A001E38C2 /* UIViewController+Popover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155791ACB764600611592 /* UIViewController+Popover.m */; };
+		5963387120998B2A001E38C2 /* UIViewController+UIPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6603001ADF399400B68EF8 /* UIViewController+UIPageViewController.m */; };
+		5963387220998B2A001E38C2 /* NSDateFormatter+Enhanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1BBB21EA056680021A330 /* NSDateFormatter+Enhanced.m */; };
+		5963387720998B4E001E38C2 /* MEOCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B31557D1ACB764600611592 /* MEOCoreDataManager.m */; };
+		5963387820998B4E001E38C2 /* MEOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155801ACB764600611592 /* MEOCache.m */; };
+		5963387920998B4E001E38C2 /* MEOCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155821ACB764600611592 /* MEOCacheManager.m */; };
+		5963387A20998B4E001E38C2 /* MEOXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155851ACB764600611592 /* MEOXMLReader.m */; };
+		5963387B20998B5F001E38C2 /* MEOImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23517B1D37887900152D35 /* MEOImageDownloader.m */; };
+		5963387C20998B5F001E38C2 /* MEOApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155901ACB764600611592 /* MEOApiManager.m */; };
+		5963387D20998BA0001E38C2 /* MEOToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0B2221DA783D2008FAB0B /* MEOToast.m */; };
+		5963387E20998BA0001E38C2 /* MEOUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0B21E1DA7838A008FAB0B /* MEOUtilities.m */; };
+		5963387F20998BA0001E38C2 /* MEOPickerToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CC9831D2DF65B003B117B /* MEOPickerToolbarView.m */; };
+		5963388020998BA0001E38C2 /* MEOHardwareUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC18F061CC9FB9400AE0D14 /* MEOHardwareUtil.m */; };
+		5963388120998BA0001E38C2 /* MEOActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4F5371ACE39E300535693 /* MEOActionSheet.m */; };
+		5963388220998BA0001E38C2 /* MEOCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B802E031ACBE9B5003A596D /* MEOCollectionDataSource.m */; };
+		5963388320998BA0001E38C2 /* MEOCollectionDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B802E051ACBE9B5003A596D /* MEOCollectionDataSourceManager.m */; };
+		5963388420998BA0001E38C2 /* MEOActivityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9727BD1BA946D5004158D6 /* MEOActivityHelper.m */; };
+		5963388520998BA0001E38C2 /* MEOInstagramActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9727B21BA9431A004158D6 /* MEOInstagramActivity.m */; };
+		5963388620998BA0001E38C2 /* MEOLINEActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B10BA831ADB3E4000B70BA5 /* MEOLINEActivity.m */; };
+		5963388720998BA0001E38C2 /* MEOIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155A21ACB764600611592 /* MEOIndicatorView.m */; };
+		5963388820998BA0001E38C2 /* MEOAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155A51ACB764600611592 /* MEOAlertView.m */; };
+		5963388920998BA0001E38C2 /* MEOAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155A81ACB764600611592 /* MEOAppManager.m */; };
+		5963388A20998BA0001E38C2 /* MEOKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155AE1ACB764600611592 /* MEOKeyChain.m */; };
+		5963388B20998BA0001E38C2 /* MEOMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155B41ACB764600611592 /* MEOMemory.m */; };
+		5963388C20998BA0001E38C2 /* MEONotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155B81ACB764600611592 /* MEONotificationView.m */; };
+		5963388D20998BA0001E38C2 /* MEONotificationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155BF1ACB764600611592 /* MEONotificationWindow.m */; };
+		5963388E20998BA0001E38C2 /* MEOSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155C21ACB764600611592 /* MEOSensor.m */; };
+		5963388F20998BA0001E38C2 /* MEOSystemStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155C51ACB764600611592 /* MEOSystemStatus.m */; };
+		5963389020998BA0001E38C2 /* MyReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155C81ACB764600611592 /* MyReachability.m */; };
+		5963389120998BA0001E38C2 /* MEOTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155CB1ACB764600611592 /* MEOTableViewCell.m */; };
+		5963389220998BA0001E38C2 /* MEOTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155D11ACB764600611592 /* MEOTableDataSource.m */; };
+		5963389320998BA0001E38C2 /* MEOTableDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3155D31ACB764600611592 /* MEOTableDataSourceManager.m */; };
+		5963389520998BBB001E38C2 /* MEKitObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0404511ACAAD960071090C /* MEKitObjC.m */; };
+		596C7CED209898C7001650E5 /* MEKitObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B04044F1ACAAD960071090C /* MEKitObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CEE209899BF001650E5 /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31554A1ACB764600611592 /* Categories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CEF209899BF001650E5 /* NSArray+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31554C1ACB764600611592 /* NSArray+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF0209899BF001650E5 /* NSData+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31554E1ACB764600611592 /* NSData+AESCrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF1209899BF001650E5 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155501ACB764600611592 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF2209899BF001650E5 /* NSDate+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155521ACB764600611592 /* NSDate+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF3209899BF001650E5 /* NSDictionary+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155541ACB764600611592 /* NSDictionary+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF4209899BF001650E5 /* NSError+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B340C7F1AF1C8D200D18E71 /* NSError+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF5209899BF001650E5 /* NSMutableArray+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155561ACB764600611592 /* NSMutableArray+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF6209899BF001650E5 /* NSObject+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155581ACB764600611592 /* NSObject+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF7209899BF001650E5 /* NSString+AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31555A1ACB764600611592 /* NSString+AESCrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF8209899BF001650E5 /* NSString+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31555C1ACB764600611592 /* NSString+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CF9209899BF001650E5 /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31555E1ACB764600611592 /* UIActionSheet+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFA209899BF001650E5 /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155601ACB764600611592 /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFB209899BF001650E5 /* UIButton+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155621ACB764600611592 /* UIButton+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFC209899BF001650E5 /* UIColor+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155641ACB764600611592 /* UIColor+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFD209899BF001650E5 /* UIImage+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155661ACB764600611592 /* UIImage+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFE209899BF001650E5 /* UILabel+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFB4D471B32930B008833E5 /* UILabel+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7CFF209899BF001650E5 /* UIResponder+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155681ACB764600611592 /* UIResponder+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D00209899BF001650E5 /* UIScrollView+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31556A1ACB764600611592 /* UIScrollView+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D01209899BF001650E5 /* UITabBarController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31556C1ACB764600611592 /* UITabBarController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D02209899BF001650E5 /* UITableViewCell+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31556E1ACB764600611592 /* UITableViewCell+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D03209899BF001650E5 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155701ACB764600611592 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D04209899BF001650E5 /* UIView+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155721ACB764600611592 /* UIView+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D05209899BF001650E5 /* UIViewController+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155741ACB764600611592 /* UIViewController+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D06209899BF001650E5 /* UIViewController+HeadphoneNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAA32651CBC876E00A0C239 /* UIViewController+HeadphoneNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D07209899BF001650E5 /* UIViewController+NavigationDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155761ACB764600611592 /* UIViewController+NavigationDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D08209899BF001650E5 /* UIViewController+Popover.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155781ACB764600611592 /* UIViewController+Popover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D09209899BF001650E5 /* UIViewController+UIPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6602FF1ADF399400B68EF8 /* UIViewController+UIPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0A209899BF001650E5 /* NSDateFormatter+Enhanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC1BBB11EA056680021A330 /* NSDateFormatter+Enhanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0B20989A08001650E5 /* MEOCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31557C1ACB764600611592 /* MEOCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0C20989A08001650E5 /* MEOCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31557F1ACB764600611592 /* MEOCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0D20989A08001650E5 /* MEOCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155811ACB764600611592 /* MEOCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0E20989A08001650E5 /* MEOXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155841ACB764600611592 /* MEOXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D0F20989A1E001650E5 /* MEOImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B23517A1D37887900152D35 /* MEOImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1020989A1E001650E5 /* MEOApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31558F1ACB764600611592 /* MEOApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1120989A45001650E5 /* MEOToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE0B2211DA783D2008FAB0B /* MEOToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1220989A45001650E5 /* MEOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE0B21D1DA7838A008FAB0B /* MEOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1320989A45001650E5 /* MEOPickerToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2CC9821D2DF65B003B117B /* MEOPickerToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1420989A45001650E5 /* MEOHardwareUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC18F051CC9FB9400AE0D14 /* MEOHardwareUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1520989A45001650E5 /* MEOActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD4F5361ACE39E300535693 /* MEOActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1620989A45001650E5 /* MEOCollectionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B802E021ACBE9B5003A596D /* MEOCollectionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1720989A45001650E5 /* MEOCollectionDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B802E041ACBE9B5003A596D /* MEOCollectionDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1820989A45001650E5 /* MEOActivityHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9727BC1BA946D5004158D6 /* MEOActivityHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1920989A45001650E5 /* MEOInstagramActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9727B11BA9431A004158D6 /* MEOInstagramActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1A20989A45001650E5 /* MEOLINEActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B10BA821ADB3E4000B70BA5 /* MEOLINEActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1B20989A45001650E5 /* MEOIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155A11ACB764600611592 /* MEOIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1C20989A45001650E5 /* MEOAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155A41ACB764600611592 /* MEOAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1D20989A45001650E5 /* MEOAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155A71ACB764600611592 /* MEOAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1E20989A45001650E5 /* MEOKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155AD1ACB764600611592 /* MEOKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D1F20989A45001650E5 /* MEOMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155B31ACB764600611592 /* MEOMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2020989A45001650E5 /* MEONotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155B71ACB764600611592 /* MEONotificationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2120989A45001650E5 /* MEONotificationWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155BE1ACB764600611592 /* MEONotificationWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2220989A45001650E5 /* MEOSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155C11ACB764600611592 /* MEOSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2320989A45001650E5 /* MEOSystemStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155C41ACB764600611592 /* MEOSystemStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2420989A45001650E5 /* MyReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155C71ACB764600611592 /* MyReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2520989A45001650E5 /* MEOTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155CA1ACB764600611592 /* MEOTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2620989A45001650E5 /* MEOTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155D01ACB764600611592 /* MEOTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2720989A45001650E5 /* MEOTableDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3155D21ACB764600611592 /* MEOTableDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C7D2E20989E4F001650E5 /* MEKitObjCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 596C7D2D20989E4E001650E5 /* MEKitObjCResources.bundle */; };
 		59D605DD20988D350029FCB9 /* MEKitObjCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D605DB20988D350029FCB9 /* MEKitObjCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B0404501ACAAD960071090C /* MEKitObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B04044F1ACAAD960071090C /* MEKitObjC.h */; };
 		9B0404521ACAAD960071090C /* MEKitObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0404511ACAAD960071090C /* MEKitObjC.m */; };
@@ -190,6 +309,7 @@
 
 /* Begin PBXFileReference section */
 		596C7CEC20989706001650E5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		596C7D2D20989E4E001650E5 /* MEKitObjCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MEKitObjCResources.bundle; path = resources/MEKitObjCResources.bundle; sourceTree = "<group>"; };
 		59D605D920988D350029FCB9 /* MEKitObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MEKitObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D605DB20988D350029FCB9 /* MEKitObjCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEKitObjCFramework.h; sourceTree = "<group>"; };
 		59D605DC20988D350029FCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -419,6 +539,7 @@
 				9B0404511ACAAD960071090C /* MEKitObjC.m */,
 				9B3155461ACB761700611592 /* info.plist */,
 				596C7CEC20989706001650E5 /* module.modulemap */,
+				596C7D2D20989E4E001650E5 /* MEKitObjCResources.bundle */,
 			);
 			path = MEKitObjC;
 			sourceTree = "<group>";
@@ -888,6 +1009,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				59D605DD20988D350029FCB9 /* MEKitObjCFramework.h in Headers */,
+				596C7CED209898C7001650E5 /* MEKitObjC.h in Headers */,
+				596C7CEE209899BF001650E5 /* Categories.h in Headers */,
+				596C7CEF209899BF001650E5 /* NSArray+Enhanced.h in Headers */,
+				596C7CF0209899BF001650E5 /* NSData+AESCrypt.h in Headers */,
+				596C7CF1209899BF001650E5 /* NSData+Base64.h in Headers */,
+				596C7CF2209899BF001650E5 /* NSDate+Enhanced.h in Headers */,
+				596C7CF3209899BF001650E5 /* NSDictionary+Enhanced.h in Headers */,
+				596C7CF4209899BF001650E5 /* NSError+Enhanced.h in Headers */,
+				596C7CF5209899BF001650E5 /* NSMutableArray+Enhanced.h in Headers */,
+				596C7CF6209899BF001650E5 /* NSObject+Enhanced.h in Headers */,
+				596C7CF7209899BF001650E5 /* NSString+AESCrypt.h in Headers */,
+				596C7CF8209899BF001650E5 /* NSString+Enhanced.h in Headers */,
+				596C7CF9209899BF001650E5 /* UIActionSheet+Blocks.h in Headers */,
+				596C7CFA209899BF001650E5 /* UIAlertView+Blocks.h in Headers */,
+				596C7CFB209899BF001650E5 /* UIButton+Enhanced.h in Headers */,
+				596C7CFC209899BF001650E5 /* UIColor+Enhanced.h in Headers */,
+				596C7CFD209899BF001650E5 /* UIImage+Enhanced.h in Headers */,
+				596C7CFE209899BF001650E5 /* UILabel+Enhanced.h in Headers */,
+				596C7CFF209899BF001650E5 /* UIResponder+Enhanced.h in Headers */,
+				596C7D00209899BF001650E5 /* UIScrollView+Enhanced.h in Headers */,
+				596C7D01209899BF001650E5 /* UITabBarController+Extension.h in Headers */,
+				596C7D02209899BF001650E5 /* UITableViewCell+Enhanced.h in Headers */,
+				596C7D03209899BF001650E5 /* UITextView+Placeholder.h in Headers */,
+				596C7D04209899BF001650E5 /* UIView+Enhanced.h in Headers */,
+				596C7D05209899BF001650E5 /* UIViewController+Enhanced.h in Headers */,
+				596C7D06209899BF001650E5 /* UIViewController+HeadphoneNotification.h in Headers */,
+				596C7D07209899BF001650E5 /* UIViewController+NavigationDrawer.h in Headers */,
+				596C7D08209899BF001650E5 /* UIViewController+Popover.h in Headers */,
+				596C7D09209899BF001650E5 /* UIViewController+UIPageViewController.h in Headers */,
+				596C7D0A209899BF001650E5 /* NSDateFormatter+Enhanced.h in Headers */,
+				596C7D0B20989A08001650E5 /* MEOCoreDataManager.h in Headers */,
+				596C7D0C20989A08001650E5 /* MEOCache.h in Headers */,
+				596C7D0D20989A08001650E5 /* MEOCacheManager.h in Headers */,
+				596C7D0E20989A08001650E5 /* MEOXMLReader.h in Headers */,
+				596C7D0F20989A1E001650E5 /* MEOImageDownloader.h in Headers */,
+				596C7D1020989A1E001650E5 /* MEOApiManager.h in Headers */,
+				596C7D1120989A45001650E5 /* MEOToast.h in Headers */,
+				596C7D1220989A45001650E5 /* MEOUtilities.h in Headers */,
+				596C7D1320989A45001650E5 /* MEOPickerToolbarView.h in Headers */,
+				596C7D1420989A45001650E5 /* MEOHardwareUtil.h in Headers */,
+				596C7D1520989A45001650E5 /* MEOActionSheet.h in Headers */,
+				596C7D1620989A45001650E5 /* MEOCollectionDataSource.h in Headers */,
+				596C7D1720989A45001650E5 /* MEOCollectionDataSourceManager.h in Headers */,
+				596C7D1820989A45001650E5 /* MEOActivityHelper.h in Headers */,
+				596C7D1920989A45001650E5 /* MEOInstagramActivity.h in Headers */,
+				596C7D1A20989A45001650E5 /* MEOLINEActivity.h in Headers */,
+				596C7D1B20989A45001650E5 /* MEOIndicatorView.h in Headers */,
+				596C7D1C20989A45001650E5 /* MEOAlertView.h in Headers */,
+				596C7D1D20989A45001650E5 /* MEOAppManager.h in Headers */,
+				596C7D1E20989A45001650E5 /* MEOKeyChain.h in Headers */,
+				596C7D1F20989A45001650E5 /* MEOMemory.h in Headers */,
+				596C7D2020989A45001650E5 /* MEONotificationView.h in Headers */,
+				596C7D2120989A45001650E5 /* MEONotificationWindow.h in Headers */,
+				596C7D2220989A45001650E5 /* MEOSensor.h in Headers */,
+				596C7D2320989A45001650E5 /* MEOSystemStatus.h in Headers */,
+				596C7D2420989A45001650E5 /* MyReachability.h in Headers */,
+				596C7D2520989A45001650E5 /* MEOTableViewCell.h in Headers */,
+				596C7D2620989A45001650E5 /* MEOTableDataSource.h in Headers */,
+				596C7D2720989A45001650E5 /* MEOTableDataSourceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,7 +1136,6 @@
 				9B0405B21ACACC160071090C /* Sources */,
 				9B0405B31ACACC160071090C /* Frameworks */,
 				9B0405B41ACACC160071090C /* Resources */,
-				9B0405DF1ACADB010071090C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -978,7 +1157,6 @@
 				TargetAttributes = {
 					59D605D820988D350029FCB9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
 					};
 					9B04044B1ACAAD960071090C = {
 						CreatedOnToolsVersion = 6.2;
@@ -1018,6 +1196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596C7D2E20989E4F001650E5 /* MEKitObjCResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,27 +1248,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9B0405DF1ACADB010071090C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# ==============================\n# 変数設定\n# ==============================\nINFOPLIST='MEKitObjC/info.plist'\nFRAMEWORK_NAME=\"MEKitObjCResources\"\nFRAMEWORK_BUILD_PATH=\"MEKitObjC/resources\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/MEKitObjCResources.bundle\"\nFRAMEWORK_VERSION_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" ${INFOPLIST})\nPACKAGENAME=\"${FRAMEWORK_NAME}_v${FRAMEWORK_VERSION_NUMBER}.zip\"\n\n\n# pngファイルのコピー\nfind -L ${SRCROOT}/${FRAMEWORK_NAME} -name \"*.png\" | xargs -t -I {} cp {} ${FRAMEWORK_DIR}/\n\n## zip\n#cd ${FRAMEWORK_BUILD_PATH}\n#rm -rf ${FRAMEWORK_NAME}*.zip\n#zip -ry ${PACKAGENAME} $(basename $FRAMEWORK_DIR)\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		59D605D420988D350029FCB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5963389520998BBB001E38C2 /* MEKitObjC.m in Sources */,
+				5963385620998B2A001E38C2 /* Categories.m in Sources */,
+				5963385720998B2A001E38C2 /* NSArray+Enhanced.m in Sources */,
+				5963385820998B2A001E38C2 /* NSData+AESCrypt.m in Sources */,
+				5963385920998B2A001E38C2 /* NSData+Base64.m in Sources */,
+				5963385A20998B2A001E38C2 /* NSDate+Enhanced.m in Sources */,
+				5963385B20998B2A001E38C2 /* NSDictionary+Enhanced.m in Sources */,
+				5963385C20998B2A001E38C2 /* NSError+Enhanced.m in Sources */,
+				5963385D20998B2A001E38C2 /* NSMutableArray+Enhanced.m in Sources */,
+				5963385E20998B2A001E38C2 /* NSObject+Enhanced.m in Sources */,
+				5963385F20998B2A001E38C2 /* NSString+AESCrypt.m in Sources */,
+				5963386020998B2A001E38C2 /* NSString+Enhanced.m in Sources */,
+				5963386120998B2A001E38C2 /* UIActionSheet+Blocks.m in Sources */,
+				5963386220998B2A001E38C2 /* UIAlertView+Blocks.m in Sources */,
+				5963386320998B2A001E38C2 /* UIButton+Enhanced.m in Sources */,
+				5963386420998B2A001E38C2 /* UIColor+Enhanced.m in Sources */,
+				5963386520998B2A001E38C2 /* UIImage+Enhanced.m in Sources */,
+				5963386620998B2A001E38C2 /* UILabel+Enhanced.m in Sources */,
+				5963386720998B2A001E38C2 /* UIResponder+Enhanced.m in Sources */,
+				5963386820998B2A001E38C2 /* UIScrollView+Enhanced.m in Sources */,
+				5963386920998B2A001E38C2 /* UITabBarController+Extension.m in Sources */,
+				5963386A20998B2A001E38C2 /* UITableViewCell+Enhanced.m in Sources */,
+				5963386B20998B2A001E38C2 /* UITextView+Placeholder.m in Sources */,
+				5963386C20998B2A001E38C2 /* UIView+Enhanced.m in Sources */,
+				5963386D20998B2A001E38C2 /* UIViewController+Enhanced.m in Sources */,
+				5963386E20998B2A001E38C2 /* UIViewController+HeadphoneNotification.m in Sources */,
+				5963386F20998B2A001E38C2 /* UIViewController+NavigationDrawer.m in Sources */,
+				5963387020998B2A001E38C2 /* UIViewController+Popover.m in Sources */,
+				5963387120998B2A001E38C2 /* UIViewController+UIPageViewController.m in Sources */,
+				5963387220998B2A001E38C2 /* NSDateFormatter+Enhanced.m in Sources */,
+				5963387720998B4E001E38C2 /* MEOCoreDataManager.m in Sources */,
+				5963387820998B4E001E38C2 /* MEOCache.m in Sources */,
+				5963387920998B4E001E38C2 /* MEOCacheManager.m in Sources */,
+				5963387A20998B4E001E38C2 /* MEOXMLReader.m in Sources */,
+				5963387B20998B5F001E38C2 /* MEOImageDownloader.m in Sources */,
+				5963387C20998B5F001E38C2 /* MEOApiManager.m in Sources */,
+				5963387D20998BA0001E38C2 /* MEOToast.m in Sources */,
+				5963387E20998BA0001E38C2 /* MEOUtilities.m in Sources */,
+				5963387F20998BA0001E38C2 /* MEOPickerToolbarView.m in Sources */,
+				5963388020998BA0001E38C2 /* MEOHardwareUtil.m in Sources */,
+				5963388120998BA0001E38C2 /* MEOActionSheet.m in Sources */,
+				5963388220998BA0001E38C2 /* MEOCollectionDataSource.m in Sources */,
+				5963388320998BA0001E38C2 /* MEOCollectionDataSourceManager.m in Sources */,
+				5963388420998BA0001E38C2 /* MEOActivityHelper.m in Sources */,
+				5963388520998BA0001E38C2 /* MEOInstagramActivity.m in Sources */,
+				5963388620998BA0001E38C2 /* MEOLINEActivity.m in Sources */,
+				5963388720998BA0001E38C2 /* MEOIndicatorView.m in Sources */,
+				5963388820998BA0001E38C2 /* MEOAlertView.m in Sources */,
+				5963388920998BA0001E38C2 /* MEOAppManager.m in Sources */,
+				5963388A20998BA0001E38C2 /* MEOKeyChain.m in Sources */,
+				5963388B20998BA0001E38C2 /* MEOMemory.m in Sources */,
+				5963388C20998BA0001E38C2 /* MEONotificationView.m in Sources */,
+				5963388D20998BA0001E38C2 /* MEONotificationWindow.m in Sources */,
+				5963388E20998BA0001E38C2 /* MEOSensor.m in Sources */,
+				5963388F20998BA0001E38C2 /* MEOSystemStatus.m in Sources */,
+				5963389020998BA0001E38C2 /* MyReachability.m in Sources */,
+				5963389120998BA0001E38C2 /* MEOTableViewCell.m in Sources */,
+				5963389220998BA0001E38C2 /* MEOTableDataSource.m in Sources */,
+				5963389320998BA0001E38C2 /* MEOTableDataSourceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1281,13 +1503,9 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1300,7 +1518,6 @@
 				MODULEMAP_FILE = MEKitObjC/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.Mitsuharu.Emoto.MEKitObjC;
 				PRODUCT_NAME = MEKitObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1324,13 +1541,9 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1343,7 +1556,6 @@
 				MODULEMAP_FILE = MEKitObjC/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.Mitsuharu.Emoto.MEKitObjC;
 				PRODUCT_NAME = MEKitObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
